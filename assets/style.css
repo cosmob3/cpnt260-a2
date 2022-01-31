@@ -33,12 +33,10 @@ ul {
 
 .main-header  {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   
-  border-radius: 8px;
-  margin: 2rem 50px 2rem 50px;
   background-color: white;
   color: rgb(0, 0, 0);
   font-size: 25px;
@@ -105,7 +103,7 @@ h2 {
   flex-wrap: wrap;
   align-content: flex-start;
 
-  max-width: 600px;
+  max-width: 650px;
   height: auto;
 }
 
@@ -114,7 +112,7 @@ h2 {
   justify-content: center;
   flex-wrap: wrap;
   gap: 3rem;
-  font-size: 30px;
+  font-size: 27px;
 }
 
 .fact-container p{
@@ -122,10 +120,14 @@ h2 {
 }
 
 .card-container{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 5rem;
+
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin: 25px 10px;
+  justify-items: center;
+
 }
 /* *********************** */
 /* Content in logo wrapper */
@@ -157,7 +159,6 @@ h2 {
   
   background-color: #D79922;
   border-radius: 5px;
-  max-width: 20ch;
 }
 
 .card h4 {
@@ -166,7 +167,7 @@ h2 {
 }
 
 .card p {
-  max-width: 30ch;
+  max-width: 20ch;
   min-width: 10ch;
 }
 .card a {
@@ -195,17 +196,3 @@ h2 {
   margin: 10px 0px 25px 0px;
   font-size: 25px;
 }
-
-/* ********* */
-/* **Fonts** */
-/* ********* */
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
- }
-
- p, li {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 300;
- }
