@@ -10,16 +10,16 @@
   justify-content: space-around;
   align-items: center;
   gap: 1rem;
-  background-color: #F7B32BFF;
-  color: white;
+  background-color: #4056A1;
+  color: #EFE2BA;
   padding: 0 1rem;
   max-width: 100%;
-  margin-left:  
 }
 
 .top-bar a {
   display: block;
 }
+
 a {
   color: inherit;
   text-decoration: none;  
@@ -34,13 +34,24 @@ ul {
 .main-header  {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   
   border-radius: 8px;
   margin: 2rem 50px 2rem 50px;
   background-color: white;
-  color: #E3170AFF;
-  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+}
+
+.fact-box {
+  display: grid;
+  justify-self: center;
+  align-self: center;
+  background-color: #4056A1;
+  color: whitesmoke;
+  
+  height: 8rem;
 }
 
 footer {
@@ -49,10 +60,12 @@ footer {
   align-items: center;
   height: 5rem;
   margin-top: 10px;
-  background-color: black;
+  background-color: #4056A1;
   color: whitesmoke;
   margin-top: 20px;
 }
+
+
 
 /* ********** */
 /* **Layout** */
@@ -76,12 +89,14 @@ footer {
   justify-content: space-around; 
   white-space: nowrap;
   flex-grow: 3;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
+  font-size: large; 
 }
 
 h2 {
   display: flex;
   justify-content: center;
+  font-size: 30px;
 }
 
 .img {
@@ -110,14 +125,12 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 3rem;
+  gap: 5rem;
 }
 /* *********************** */
 /* Content in logo wrapper */
 /* *********************** */
-.logo-text {
-  color: black;
-}
+
 .logo-wrapper a {
   display: flex;
   align-items: center;
@@ -126,15 +139,12 @@ h2 {
 
 .logo-wrapper p{
   font-size: 1.65rem;
-  color: #E3170AFF;
   font-weight: bold;
 }
 
 .logo-wrapper i {
-  font-size: clamp(3.5rem,10vw,4rem);
-  color: #E3170AFF;
-  }
-
+  font-size: clamp(3.5rem, 10vw, 4rem);
+}
 /* ********* */
 /* **Cards** */
 /* ********* */
@@ -145,14 +155,14 @@ h2 {
   align-items: center;
   text-align: center;
   
-  background-color: #A9E5BBFF;
+  background-color: #D79922;
   border-radius: 5px;
   max-width: 20ch;
 }
 
 .card h4 {
-  font-size: clamp(0.8rem, 5vw, 2rem);
-  color: rgb(107, 0, 247);
+  font-size: 23px;
+  color: #EFE2BA
 }
 
 .card p {
@@ -172,11 +182,12 @@ h2 {
   margin: 2px 5px 2px 5px;
   padding: 5px 2px 5px 2px;
   border-radius: 3px;
-  font-size: 15px
+  font-size: 13px
 }
 
 .btn {
-  background-color: #E3170AFF;
+  background-color: #f13c20;
+  color: #EFE2BA;
   display: flex;
   justify-content: center;
   padding: 5px 10px;
@@ -184,3 +195,17 @@ h2 {
   margin: 10px 0px 25px 0px;
   font-size: 25px;
 }
+
+/* ********* */
+/* **Fonts** */
+/* ********* */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+ }
+
+ p, li {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+ }

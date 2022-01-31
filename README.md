@@ -38,7 +38,7 @@ TODO: **Make sure it all looks good**
   - X Make cards be side by side
 - X paragraph text line lenght is 75ch
 - no horizontal scroll 
-- change colour scheme and fonts 
+- X change colour scheme and fonts 
 
 ***LATE***
 
