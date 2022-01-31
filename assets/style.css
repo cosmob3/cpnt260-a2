@@ -27,8 +27,8 @@ a {
 
 ul {
   list-style-type: none;
-  padding: 0;
-  font-size: 1.35rem;
+  padding: 5px;
+  font-size: 15px;
 } 
 
 .main-header  {
@@ -40,9 +40,18 @@ ul {
   margin: 2rem 50px 2rem 50px;
   background-color: white;
   color: #E3170AFF;
+  font-size: 20px;
 }
-.main-header p {
-  font-size: 1.4rem
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  margin-top: 10px;
+  background-color: black;
+  color: whitesmoke;
+  margin-top: 20px;
 }
 
 /* ********** */
@@ -75,12 +84,33 @@ h2 {
   justify-content: center;
 }
 
-.card-container{
+.img {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
   flex-wrap: wrap;
-  gap: 3rem
+  align-content: flex-start;
+
+  max-width: 600px;
+  height: auto;
+}
+
+.fact-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  font-size: 30px;
+}
+
+.fact-container p{
+  max-width: 75ch;
+}
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
 }
 /* *********************** */
 /* Content in logo wrapper */
@@ -117,11 +147,12 @@ h2 {
   
   background-color: #A9E5BBFF;
   border-radius: 5px;
+  max-width: 20ch;
 }
 
-.card h3 {
-  font-size: clamp(1.8rem, 5vw, 2rem);
-  color: #FCF6B1FF;
+.card h4 {
+  font-size: clamp(0.8rem, 5vw, 2rem);
+  color: rgb(107, 0, 247);
 }
 
 .card p {
@@ -129,13 +160,10 @@ h2 {
   min-width: 10ch;
 }
 .card a {
-  color: white;
   text-decoration: none;
   transition: 300ms background-color;
 }
-.card a:hover {
-  background-color: darkred;
-}
+
 .card-info {
   display: flex;
   flex-wrap: wrap;
@@ -154,4 +182,5 @@ h2 {
   padding: 5px 10px;
   border-radius: 8px;
   margin: 10px 0px 25px 0px;
+  font-size: 25px;
 }
