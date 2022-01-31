@@ -21,6 +21,8 @@ Wish me luck!
 
 Made a rough sketch of what I want my website to look like. Really helps to better visualize what needs to be in its own `<div>` or `<section>`
 
+![272641630_1007259713471749_6945775244008265755_n](https://user-images.githubusercontent.com/97326786/151822643-a8c04f6f-3aec-4e9b-849f-fc134c9dda09.jpg)
+
 Have started setting up basic skeleton on website. So far so good. Have a nav. bar, multiple sections, 1 card so far!
 
 Okay, I have everything but an unordered list. Will add that later. Going to add content and then move onto CSS.
