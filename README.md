@@ -1,4 +1,15 @@
-# cpnt260-a2
+# CPNT-260-a2 - Bryan Velasco
+
+**LINKS**
+- Github Pages: https://cosmob3.github.io/cpnt260-a2/ 
+- Github Repo: https://github.com/cosmob3/cpnt260-a2
+
+**ATTRIBUTION**
+- No attribution needed for dog image
+
+**FLARE**
+- Created a layout with more than 1 column of content with the cards
+
 
 ## January 30, 2022
 
