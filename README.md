@@ -10,6 +10,11 @@
 **FLARE**
 - Created a layout with more than 1 column of content with the cards
 
+***Website on VScode Viewer***
+
+![Live-view-off-of-VScode](https://user-images.githubusercontent.com/97326786/151879314-49d2754d-8771-4ad5-adb6-f491bdaac985.png)
+
+Github Pages in not displaying the image and its messing with the fonts too. Not sure if that's an issue with the code or what it is. 
 
 ## January 30, 2022
 
