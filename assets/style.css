@@ -84,8 +84,7 @@ footer {
 
 .nav-links {
   display: flex;
-  justify-content: space-around; 
-  white-space: nowrap;
+  justify-content: space-around;
   flex-grow: 3;
   flex-wrap: wrap;
   font-size: large; 
